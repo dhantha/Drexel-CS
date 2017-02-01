@@ -1,0 +1,3 @@
+For pro1 and prob2 separate .py scripts are written.
+Memoisation is done by using a separate memoize.py script, please copy that before running the makefile
+For the prob3 same functions are used by declared within the prob3.py script

@@ -1,0 +1,16 @@
+In this home work it is not clear that problem1, problem2 and problem3
+should be its own python files or not. But the way i understood was that to
+make individual targets in the makefile i made problem1, problem2 and problem3
+its own python scripts. 
+
+In problem3.py it calls the list_concat and list_concat_copy functions. 
+However, i had a dificullty of using timeit.Timer function to pass 2 arguments 
+as lists. I did a online search but i couldn't find a proper example. 
+Therefore i had to change the lists size manually each function call and 
+write the data to a file executing one at a time. The ideal way i think 
+of doing this is a using a loop to iterate but then i wouldn't be able to 
+dynamically increase the size of the lists. 
+
+Basically i ran problem3.py 15 times by changing the values in anotherFile.py
+stating from 1000 upto 15000 and wrote the data to a file to make the plot.
+

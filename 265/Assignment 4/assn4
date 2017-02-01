@@ -1,0 +1,24 @@
+#!/bin/bash 
+if [ -z $1 ]
+then
+
+echo "no argument provided"
+exit
+
+else
+
+s=""
+
+for var in $@ ; do
+
+s="$s $var"
+
+done
+
+javac assn4.java 
+#java assn4 "$s"
+java -classpath ".:sqlite-jdbc-3.8.11.2.jar" assn4 $s
+#echo "$s"
+
+fi
+

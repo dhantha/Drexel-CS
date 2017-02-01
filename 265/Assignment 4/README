@@ -1,0 +1,11 @@
+== summary ==
+add sqlite-jdbc-3.8.11.2.jar and test.db into the same directoy 
+
+== Description ==
+I used sqlite database instead of a regular txt file to read and write the data.
+In the Init command a table is created and in subsequent commands 
+database does all the necessary CRUD operations while checking for possible corner cases.
+To execute this program class path need to be set and it is done in the assn4 bash script.
+However the program to work the sqlite-jdbc-3.8.11.2.jar file should be in the same folder (.jar file is included in the submission).
+And also please add the test.db into the directory as well 
+Please make sure to have the sqlite-jdbc-3.8.11.2.jar file in the same directory.  
